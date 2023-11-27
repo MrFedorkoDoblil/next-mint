@@ -19,6 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ru">
+      <head>
+        <base href="/" />
+      </head>
       <body>
         <div className="wrap">
         <Header/>
