@@ -5,6 +5,8 @@ type DefaultData = {
     };
 
     email: string;
+    contactFace?: string;
+
 }
 
 export const defaultData: DefaultData = {
