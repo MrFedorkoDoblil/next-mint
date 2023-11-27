@@ -1,0 +1,51 @@
+@import '../../app/sass/variables.scss';
+
+.footer {
+    height: 40vh;
+    min-height: 180px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3a2957;
+    position: absolute;
+    bottom: 0;
+    &__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__addr, &__phone {
+        font-size: 17px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    a{
+        &:hover{
+            color: white;
+        }
+    }
+    &__phone {
+        font-size: 17px;
+    }
+    &__social { 
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &-item {
+            img {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 42px;
+                height: 42px;
+                margin-left: 12px;
+                margin-right: 12px;
+            }
+        }
+    }
+}
