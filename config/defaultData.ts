@@ -6,7 +6,7 @@ type DefaultData = {
 
     email: string;
     contactFace?: string;
-    somesome?: string;
+    somechanges?: string;
 
 }
 
