@@ -12,6 +12,16 @@ const nextConfig = {
             destination: '/signs/signsUseful',
             permanent: true,
           },
+          {
+            source: '/uvPrint',
+            destination: '/uvPrint/uvPrintInfo',
+            permanent: true,
+          },
+          {
+            source: '/polygraphy',
+            destination: '/polygraphy/polygraphyInfo',
+            permanent: true,
+          },
         ]
       },
 }

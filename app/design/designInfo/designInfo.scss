@@ -1,0 +1,92 @@
+@import '../../sass/variables.scss';
+
+.design-info{
+    padding-bottom: 40px;
+    &__pic{
+        height: 230px;
+        margin-top: -70px;
+    }
+    &__block{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin: 25px 0;
+        border-radius: 15px;
+        padding: 10px 20px;
+        box-shadow: $main-shadow;
+        &_list{
+            flex-direction: row;
+        }
+    }
+    &__title{
+        margin-top: 10px;
+        background-color: $back-color;
+        padding: 13px 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    &__group{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__descr{
+        width: 49%;
+    }
+    &__img{
+        width: 45%;
+        margin-right: 2em;
+        font-size: 14px;
+        img{
+            width: 100%;
+        }
+    }
+    &__price{
+        margin-left: 30px;
+    }
+}
+@media (max-width: 1200px) {
+    .design-info{
+        &__descr {
+            font-size: 13px;
+        }
+    }
+}
+@media (max-width: 991px) {
+    .design-info{
+        &__pic{
+            height: 182px;
+            margin-top: -20px;
+            margin-bottom: 20px;
+        }
+        &__group{
+            flex-direction: column;
+        }
+        &__img{
+            width: 100%;
+            max-width: 500px;
+            margin: 0;
+        }
+        &__descr{
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .design-info{
+        margin-left: 0;
+        &__pic{
+            height: 200px;
+            margin-top: -20px;
+            margin-bottom: 20px;
+        }
+        &__title {
+            font-size: 17px;
+        }
+
+    }
+}

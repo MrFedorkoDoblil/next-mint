@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
-import Signs from './page'
 import '@/app/globals.scss'
+import Design from './page'
 
 export const metadata: Metadata = {
-  title: 'МЯТА | Вывески',
+  title: 'МЯТА | Полиграфия',
   description: 'Официальный сайт и онлайн-сервис для заказов',
 }
 
@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <>
-    <Signs/>
+    <Design/>
     {children}
     </>
   )

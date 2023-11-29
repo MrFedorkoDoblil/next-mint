@@ -1,7 +1,7 @@
 @import '../variables.scss';
 
 .hat{
-    padding: 100px 0 40px 0;
+    padding: 40px 0;
     text-align: right;
     animation-duration: 0.5s;
     animation-name: fade;
@@ -37,33 +37,11 @@
     }
 
     &__button{
-        padding: 1ch 1.1ch;
-        margin: 0.5em;
-        border-radius: 0.8em;
-        border: 1px solid rgb(228, 228, 228);
-        transition: 0.4s;
-        font-size: 15px;
-        box-shadow: $minor-shadow;
-        &:first-child{
-            margin-left: 0;
-        }
-        &:last-child{
-            margin-right: 0;
-        }
-        &:hover{
-            box-shadow: $main-shadow;
-        }
-        &_active {
+        background-color: white;
+        color: black;
+        &_active{
             background-color: $main-color;
-            border: 1px solid $main-color;
             color: white;
-            outline: none;
-            &:hover{
-                box-shadow: $minor-shadow;
-            }
-            :active{
-                outline: none;
-            }
         }
     }
     &__title{
@@ -84,7 +62,7 @@
 }
 @media (max-width: 767px) {
     .hat{
-        padding: 120px 10px 20px 10px;
+        padding: 20px 10px;
         text-align: center;
 
         &__buttons {
@@ -104,7 +82,7 @@
 }
 @media (max-width: 575px) {
     .hat{
-        padding: 100px 0 15px 0;
+        padding: 15px 0;
         &__header{
             flex-direction: column-reverse;
             align-items: center;

@@ -10,25 +10,25 @@ export default function About() {
               <div className="services__item">
                   <Link href="/signs">
                       <div className="services__item-title">Объемные <br/> буквы</div>
-                      <img src="img/letters.png" alt="" className="services__item-img"/>
+                      <img src="img/letters.png" alt="letters" className="services__item-img"/>
                   </Link>
               </div>
               <div className="services__item">
                   <Link href="/uvprint">
                       <div className="services__item-title">УФ печать</div>
-                      <div className="services__item-img"><img src="img/uv-printer.png" alt=""/></div>
+                      <img src="img/uv-printer.png" alt="UV" className="services__item-img"/>
                   </Link>
               </div>
               <div className="services__item">
                   <Link href="/polygraphy">
                       <div className="services__item-title">Полиграфия</div>
-                      <div className="services__item-img"><img src="img/booklet.png" alt=""/></div>
+                      <img src="img/booklet.png" alt="booklet" className="services__item-img"/>
                   </Link>
               </div>
               <div className="services__item">
                   <Link href="/design">
                       <div className="services__item-title">Дизайн</div>
-                      <div className="services__item-img"><img src="img/lamp.png" alt=""/></div>
+                      <img src="img/lamp.png" alt="design" className="services__item-img"/>
                   </Link>
               </div>
           </div>

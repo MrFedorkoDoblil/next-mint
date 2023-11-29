@@ -1,0 +1,24 @@
+@import '../../sass/variables.scss';
+
+.order {
+    &__descr{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 991px) {
+    
+}
+@media (max-width: 767px) {
+    .order {
+        h3 {
+            font-size: 19px;
+        }
+        &__descr{
+            font-size: 13px;
+        }
+    }
+}
+@media (max-width: 575px) {
+}

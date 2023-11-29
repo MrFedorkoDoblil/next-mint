@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
-import Signs from './page'
 import '@/app/globals.scss'
+import UvPrint from './page'
 
 export const metadata: Metadata = {
-  title: 'МЯТА | Вывески',
+  title: 'МЯТА | УФ печать',
   description: 'Официальный сайт и онлайн-сервис для заказов',
 }
 
@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <>
-    <Signs/>
+    <UvPrint/>
     {children}
     </>
   )

@@ -1,0 +1,77 @@
+@import '../../sass/variables.scss';
+
+.polygraphy {
+    background-color: #efefef;
+    padding-bottom: 30px;
+    &__block{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5em;
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: $main-shadow;
+        &_list{
+            flex-direction: row;
+        }
+    }
+    &__title{
+        background-color: $back-color;
+        padding: 13px 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        font-size: 17px;
+        font-weight: 700;
+    }
+    &__img {
+        height: 200px;
+        margin-top: 10px;
+    }
+    &__wraper{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    &__kind{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        width: 33%;
+    }
+    &__picture{
+        transform: scale(0.85); 
+        margin-bottom: -22px;
+    }
+    &__name{
+        font-size: 17px;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 1200px) {
+    .polygraphy {
+        &__kind{
+            width: 45%;
+            min-width: 350px;
+        }
+        &__name{
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+    }
+}
+@media (max-width: 991px) {
+    
+}
+@media (max-width: 767px) {
+
+
+}
+@media (max-width: 575px) {
+    .polygraphy 
+    {
+        &__picture{
+                transform: scale(0.7); 
+        }
+    }
+}
